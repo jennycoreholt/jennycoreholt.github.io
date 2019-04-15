@@ -1,0 +1,49 @@
+.animation-item {
+  margin-bottom: 3.5rem; }
+
+.container-rotation {
+  transform: rotate(90deg); }
+
+.container-rotation-30deg {
+  transform: rotate(30deg); }
+
+.animation-graph-container {
+  height: 10rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  width: 10rem; }
+  .animation-graph-container .circle-bg {
+    fill: none;
+    stroke: red;
+    stroke-width: 7; }
+  .animation-graph-container .circle {
+    fill: none;
+    stroke-width: 0;
+    stroke-linecap: initial; }
+  .animation-graph-container .circle-blue {
+    fill: none;
+    stroke: blue;
+    stroke-width: 7; }
+  .animation-graph-container .circle-animation {
+    stroke-width: 7;
+    animation: progress 1s ease-out forwards; }
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100; } }
+  .animation-graph-container .animation-graph-stroke {
+    stroke: red; }
+  .animation-graph-container .circle-bg-blue {
+    fill: none;
+    stroke: blue;
+    stroke-width: 7; }
+  .animation-graph-container .circle-blue-darker-1 {
+    fill: none;
+    stroke: #990000;
+    stroke-width: 7; }
+  .animation-graph-container .circle-blue-darker-2 {
+    fill: none;
+    stroke: #0000cc;
+    stroke-width: 7; }

@@ -1,0 +1,46 @@
+//********* animated graphs *********//
+.animation-item {
+  margin-bottom: 1rem;
+  width: 115px;
+}
+
+.container-rotation {
+  transform: rotate(90deg);
+}
+
+.container-rotation-30deg {
+  transform: rotate(30deg);
+}
+
+.graph-text {
+  fill: rgba(darken($purple, 15%), 1);
+}
+
+.animation-graph-container {
+  height: 5rem;
+  position: relative;
+  text-align: center;
+  width: 5rem;
+
+  //** circle graph **/
+  .circle-bg {
+    fill: none;
+    stroke: rgba(darken($light-green, 50%), .4);
+    stroke-width: 3;
+  }
+  .graph-circle {
+    fill: none;
+    stroke-linecap: initial;
+  }
+
+  .circle-animation {
+    stroke-width: 3;
+    stroke: rgba(darken($purple, 15%), 1);
+    animation: progress 1s ease-out forwards;
+  }
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+}
