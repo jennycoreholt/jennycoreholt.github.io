@@ -40,17 +40,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/art-ball-bubble-314958.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.57338e+06,
-		"inputAbbreviatedPath": "\/assets\/images\/art-ball-bubble-314958.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/art-ball-bubble-314958.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/Group.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -128,28 +117,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/jch_1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 103386,
-		"inputAbbreviatedPath": "\/assets\/images\/jch_1.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/jch_1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/jch_2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 80150,
-		"inputAbbreviatedPath": "\/assets\/images\/jch_2.png",
-		"outputAbbreviatedPath": "\/assets\/images\/jch_2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/images\/snowboarding.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -157,28 +124,6 @@
 		"initialSize": 2.86389e+07,
 		"inputAbbreviatedPath": "\/assets\/images\/snowboarding.png",
 		"outputAbbreviatedPath": "\/assets\/images\/snowboarding.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/teapot.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19565,
-		"inputAbbreviatedPath": "\/assets\/images\/teapot.png",
-		"outputAbbreviatedPath": "\/assets\/images\/teapot.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/test.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.4438e+06,
-		"inputAbbreviatedPath": "\/assets\/images\/test.png",
-		"outputAbbreviatedPath": "\/assets\/images\/test.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -208,6 +153,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/stylesheets\/font_styles.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/font_styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/stylesheets\/fonts.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/stylesheets\/fonts.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

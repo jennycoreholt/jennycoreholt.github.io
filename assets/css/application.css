@@ -1,3 +1,49 @@
+/* roboto-black-900 */
+@font-face {
+  font-family: 'Roboto-Black';
+  font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype"); }
+/* roboto-bold-700 */
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-variant: normal;
+  src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"); }
+/* roboto-hairline/thin-100 */
+@font-face {
+  font-family: 'Roboto-Thin';
+  font-style: normal;
+  font-weight: 100;
+  font-variant: normal;
+  src: url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype"); }
+/* roboto-light-300 */
+@font-face {
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-variant: normal;
+  src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"); }
+/* roboto-regular-400 */
+@font-face {
+  font-family: 'Roboto-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
+html,
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-variant-ligatures: none;
+  font-variant-ligatures: none;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-variant: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility; }
+
 html,
 body {
   -webkit-background-size: cover;
@@ -12,8 +58,7 @@ body {
   background: -o-linear-gradient(to top, #c2ffed, #ebfff9) fixed;
   background: linear-gradient(to top, #c2ffed, #ebfff9) fixed;
   background-image: linear-gradient(to top, #c2ffed, #ebfff9) fixed;
-  color: #4C4C4C;
-  font-family: 'Roboto', sans-serif; }
+  color: #4C4C4C; }
 
 .cta-btn {
   -o-transition: all .4s ease-in-out;
@@ -60,10 +105,10 @@ h2 {
       line-height: 53px; } }
 
 .thin-text {
-  font-weight: 100; }
+  font-family: 'Roboto-Thin', sans-serif; }
 
-p.muted-text {
-  opacity: .5; }
+.light-text {
+  font-family: 'Roboto-Light', sans-serif; }
 
 .highlight {
   background-image: linear-gradient(to right, rgba(0, 235, 165, 0) 50%, rgba(0, 235, 165, 0.5) 50%);
@@ -146,7 +191,7 @@ p.muted-text {
     height: 4.3rem;
     width: auto; }
   .icon-text-box p {
-    font-weight: 100; }
+    font-family: 'Roboto-Light', sans-serif; }
 
 .circle {
   background-color: #d2fff1;

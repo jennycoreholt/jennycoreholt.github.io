@@ -5,13 +5,13 @@ h2 {
 }
  //******** font styles ********//
  .thin-text {
-   font-weight: 100;
+   font-family: 'Roboto-Thin', sans-serif;
  }
 
-p.muted-text {;
-  // color: darken($light-green, 60%);
-  opacity: .5;
+.light-text {
+  font-family: 'Roboto-Light', sans-serif;
 }
+
 //*******  text highlight *******//
 .highlight {
   background-image: linear-gradient(to right, rgba(darken($light-green, 50%), 0) 50%, rgba(darken($light-green, 50%), 0.5) 50%);
