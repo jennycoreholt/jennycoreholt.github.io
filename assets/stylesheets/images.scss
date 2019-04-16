@@ -39,42 +39,6 @@ $width: 180px;
   overflow: hidden;
 }
 
-// .blurred-box{
-//   position: relative;
-//   width: 250px;
-//   height: 350px;
-//   top: calc(50% - 175px);
-//   left: calc(50% - 125px);
-//   background: inherit;
-//   border-radius: 2px;
-//   overflow: hidden;
-// }
-// .hex2:after {
-//   background-color: darken($light-green, 5%);
-//   height: 100%;
-//   position: relative;
-//   transform: rotate(-60deg);
-//   visibility: visible;
-//   width: 100%;
-//   overflow: hidden;
-// }
-// .hex2:after::after {
-//  content: '';
-//  // width: 300px;
-//  // height: 300px;
-//  background: inherit;
-//  position: absolute;
-//  left: 0px;
-//  // left: position;
-//  right: 0;
-//  top: 0px;
-//  // top: position;
-//  bottom: 0;
-//  box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
-//  filter: blur(10px);
-// }
-
-
 //******* icon text box *******//
 .icon-text-box {
   text-align: center;
@@ -86,7 +50,7 @@ $width: 180px;
   }
 
   p {
-    font-family: $roboto-thin;
+    font-weight: 100;
   }
 }
 

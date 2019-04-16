@@ -60,7 +60,7 @@ h2 {
       line-height: 53px; } }
 
 .thin-text {
-  font-family: "roboto-thin"; }
+  font-weight: 100; }
 
 p.muted-text {
   opacity: .5; }
@@ -146,7 +146,7 @@ p.muted-text {
     height: 4.3rem;
     width: auto; }
   .icon-text-box p {
-    font-family: "roboto-thin"; }
+    font-weight: 100; }
 
 .circle {
   background-color: #d2fff1;
