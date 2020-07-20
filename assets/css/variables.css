@@ -1,0 +1,32 @@
+html,
+body {
+  background: #000000;
+  color: #fff; }
+
+.cta-btn {
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  background-image: linear-gradient(to right, #8847a4, #CA1EC4, #852D91, #852D91, #6253e1, #9650b4);
+  background-size: 300% 100%;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 10px 1px rgba(126, 52, 161, 0.5);
+  moz-transition: all .4s ease-in-out;
+  padding: .4rem 1.2rem;
+  text-align: center;
+  transition: all .4s ease-in-out; }
+  .cta-btn:focus, .cta-btn:hover, .cta-btn:visited {
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; }
+  .cta-btn a {
+    color: #fff; }
+    .cta-btn a:hover {
+      text-decoration: none; }
+
+.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+  background-image: linear-gradient(to right, #8847a4, #6253e1, #852D91, #9650b4, #CA1EC4);
+  background-position: 100% 0;
+  color: #fff; }

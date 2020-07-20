@@ -5,6 +5,7 @@
   font-weight: 900;
   font-variant: normal;
   src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype"); }
+
 /* roboto-bold-700 */
 @font-face {
   font-family: 'Roboto-Bold';
@@ -12,6 +13,7 @@
   font-weight: 700;
   font-variant: normal;
   src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"); }
+
 /* roboto-hairline/thin-100 */
 @font-face {
   font-family: 'Roboto-Thin';
@@ -19,6 +21,7 @@
   font-weight: 100;
   font-variant: normal;
   src: url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype"); }
+
 /* roboto-light-300 */
 @font-face {
   font-family: 'Roboto-Light';
@@ -26,6 +29,7 @@
   font-weight: 300;
   font-variant: normal;
   src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"); }
+
 /* roboto-regular-400 */
 @font-face {
   font-family: 'Roboto-Regular';
@@ -33,6 +37,7 @@
   font-weight: 400;
   font-variant: normal;
   src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
+
 html,
 body {
   -moz-osx-font-smoothing: grayscale;
@@ -46,19 +51,8 @@ body {
 
 html,
 body {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background: #ebfff9;
-  background-repeat: no-repeat;
-  background: -webkit-linear-gradient(to top, #c2ffed, #ebfff9) fixed;
-  background: -moz-linear-gradient(to top, #c2ffed, #ebfff9) fixed;
-  background: -ms-linear-gradient(to top, #c2ffed, #ebfff9) fixed;
-  background: -o-linear-gradient(to top, #c2ffed, #ebfff9) fixed;
-  background: linear-gradient(to top, #c2ffed, #ebfff9) fixed;
-  background-image: linear-gradient(to top, #c2ffed, #ebfff9) fixed;
-  color: #4C4C4C; }
+  background: #000000;
+  color: #fff; }
 
 .cta-btn {
   -o-transition: all .4s ease-in-out;
@@ -88,6 +82,23 @@ body {
   background-position: 100% 0;
   color: #fff; }
 
+h1 {
+  font-weight: 600;
+  font-size: calc(50px + 15 * ((100vw - 700px) / 500));
+  line-height: calc(65px + 20 * ((100vw - 700px) / 500)); }
+  @media screen and (max-width: 700px) {
+    h1 {
+      font-size: 50px; } }
+  @media screen and (min-width: 1200px) {
+    h1 {
+      font-size: 65px; } }
+  @media screen and (max-width: 700px) {
+    h1 {
+      line-height: 65px; } }
+  @media screen and (min-width: 1200px) {
+    h1 {
+      line-height: 85px; } }
+
 h2 {
   font-size: calc(26px + 8 * ((100vw - 700px) / 500));
   line-height: calc(40px + 13 * ((100vw - 700px) / 500)); }
@@ -111,7 +122,8 @@ h2 {
   font-family: 'Roboto-Light', sans-serif; }
 
 .highlight {
-  background-image: linear-gradient(to right, rgba(0, 235, 165, 0) 50%, rgba(0, 235, 165, 0.5) 50%);
+  color: #000000;
+  background-image: linear-gradient(to right, rgba(0, 235, 165, 0) 50%, #00eba5 50%);
   background-position: -0% 0;
   background-size: 200% auto;
   padding: 0 .2rem;
@@ -235,6 +247,7 @@ h2 {
     stroke-width: 3;
     stroke: #9650b4;
     animation: progress 1s ease-out forwards; }
+
 @keyframes progress {
   0% {
     stroke-dasharray: 0 100; } }

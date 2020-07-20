@@ -1,0 +1,26 @@
+{
+  "name": "design_website",
+  "version": "1.0.0",
+  "description": "web design website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/scss/application.scss -o assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennycoreholt/design_website.git"
+  },
+  "keywords": [
+    "design"
+  ],
+  "author": "jenny core-holt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennycoreholt/design_website/issues"
+  },
+  "homepage": "https://github.com/jennycoreholt/design_website#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
