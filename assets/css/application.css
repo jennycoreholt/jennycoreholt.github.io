@@ -85,7 +85,7 @@ body {
 h1 {
   font-weight: 600;
   font-size: calc(50px + 15 * ((100vw - 700px) / 500));
-  line-height: calc(65px + 20 * ((100vw - 700px) / 500)); }
+  line-height: calc(65px + 15 * ((100vw - 700px) / 500)); }
   @media screen and (max-width: 700px) {
     h1 {
       font-size: 50px; } }
@@ -97,7 +97,7 @@ h1 {
       line-height: 65px; } }
   @media screen and (min-width: 1200px) {
     h1 {
-      line-height: 85px; } }
+      line-height: 80px; } }
 
 h2 {
   font-size: calc(26px + 8 * ((100vw - 700px) / 500));
@@ -122,15 +122,19 @@ h2 {
   font-family: 'Roboto-Light', sans-serif; }
 
 .highlight {
-  color: #000000;
   background-image: linear-gradient(to right, rgba(0, 235, 165, 0) 50%, #00eba5 50%);
   background-position: -0% 0;
   background-size: 200% auto;
   padding: 0 .2rem;
   transition: background-position 1s ease-out; }
+  .highlight span {
+    color: #fff;
+    transition: color .7s ease-in; }
 
 .show-highlight {
   background-position: -99.99% 0; }
+  .show-highlight span {
+    color: #000000; }
 
 .social-media {
   cursor: pointer;
@@ -229,7 +233,7 @@ h2 {
   transform: rotate(30deg); }
 
 .graph-text {
-  fill: #9650b4; }
+  fill: #00eba5; }
 
 .animation-graph-container {
   height: 5rem;
@@ -238,14 +242,14 @@ h2 {
   width: 5rem; }
   .animation-graph-container .circle-bg {
     fill: none;
-    stroke: rgba(0, 235, 165, 0.4);
+    stroke: rgba(0, 235, 165, 0.15);
     stroke-width: 3; }
   .animation-graph-container .graph-circle {
     fill: none;
     stroke-linecap: initial; }
   .animation-graph-container .circle-animation {
     stroke-width: 3;
-    stroke: #9650b4;
+    stroke: #00eba5;
     animation: progress 1s ease-out forwards; }
 
 @keyframes progress {

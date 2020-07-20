@@ -2,7 +2,7 @@
 h1 {
   font-weight: 600;
   @include fluid-type(50px, 65px);
-	@include fluid-line-height(65px, 85px);
+	@include fluid-line-height(65px, 80px);
 }
 
 h2 {
@@ -20,16 +20,23 @@ h2 {
 
 //*******  text highlight *******//
 .highlight {
-  color: $black;
+ 
   background-image: linear-gradient(to right, rgba(darken($light-green, 50%), 0) 50%, rgba(darken($light-green, 50%), 1) 50%);
   background-position: -0% 0;
   background-size: 200% auto;
   padding: 0 .2rem;
   transition: background-position 1s ease-out;
+  span {
+    color: $white;
+    transition: color .7s ease-in;
+  }
 }
 
-.show-highlight {
+.show-highlight { 
   background-position: -99.99% 0;
+  span {
+    color: $black;
+  }
 }
 
 //******** lists *********//
