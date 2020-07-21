@@ -1,3 +1,5 @@
+@import "variables";
+
 //******* font sizes *******//
 h1 {
   font-weight: 600;
@@ -45,14 +47,19 @@ h2 {
   left: 0;
   list-style: none;
   padding-left: 0;
-  position: absolute;
   text-align: left;
+  @media (min-width: 992px) {
+    left: 1.5rem;
+    position: absolute;
+    top: 8rem;
+
+    li {
+      padding-bottom: 2rem;
+    } 
+  }
   li {
-    padding-bottom: 2rem;
 
     > a {
-      // color: $link-color;
-      // position: relative;
 
       &:hover {
         text-decoration: none;
@@ -68,22 +75,5 @@ h2 {
         width: auto;
       }
     }
-    // > a:before {
-    //   background: $link-color;
-    //   bottom: -4px;
-    //   content: "";
-    //   height: 2px;
-    //   left: 0;
-    //   position: absolute;
-    //   transform: scaleX(0);
-    //   transition: .25s linear;
-    //   visibility: hidden;
-    //   width: 100%;
-    // }
-
-    // > a:hover:before, a:focus:before {
-    //   transform: scaleX(1);
-    //   visibility: visible;
-    // }
   }
 }

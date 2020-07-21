@@ -26,7 +26,34 @@ body {
     .cta-btn a:hover {
       text-decoration: none; }
 
-.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+.btn.btn-primary {
+  background-color: transparent;
+  background-image: linear-gradient(to right, rgba(0, 235, 165, 0) 50%, #00eba5 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  border: 2px solid #00eba5;
+  border-radius: 0;
+  transition: background-position .4s ease-out; }
+  .btn.btn-primary span {
+    color: #00eba5;
+    transition: color .3s ease-in-out; }
+
+.btn.btn.btn-primary:hover,
+.btn.btn.btn-primary:focus {
+  background-position: -99.5% 0;
+  box-shadow: none; }
+  .btn.btn.btn-primary:hover span,
+  .btn.btn.btn-primary:focus span {
+    color: #000000;
+    font-weight: 800; }
+
+.cta-btn:not(:disabled):not(.disabled).active, .cta-btn:not(:disabled):not(.disabled):active {
   background-image: linear-gradient(to right, #8847a4, #6253e1, #852D91, #9650b4, #CA1EC4);
   background-position: 100% 0;
   color: #fff; }
+
+.navbar-brand {
+  width: 100%; }
+  @media (min-width: 768px) {
+    .navbar-brand {
+      width: auto; } }

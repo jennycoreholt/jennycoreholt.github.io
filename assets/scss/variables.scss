@@ -43,10 +43,42 @@ body {
   }
 }
 
-.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+.btn.btn-primary {
+  background-color: transparent;
+  background-image: linear-gradient(to right, rgba(darken($light-green, 50%), 0) 50%, rgba(darken($light-green, 50%), 1) 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  border: 2px solid darken($light-green, 50%);
+  border-radius: 0;
+  transition: background-position .4s ease-out;
+  span {
+    color: darken($light-green, 50%);
+    transition: color .3s ease-in-out;
+  }
+}
+
+.btn.btn.btn-primary:hover, 
+.btn.btn.btn-primary:focus {
+  background-position: -99.5% 0;
+  box-shadow: none;
+  span {
+    color: $black;
+    font-weight: 800;
+  }
+}
+
+.cta-btn:not(:disabled):not(.disabled).active, .cta-btn:not(:disabled):not(.disabled):active {
   background-image: linear-gradient(to right, rgba(darken($purple, 20%), 1), #6253e1, #852D91, rgba(darken($purple, 15%), 1), #CA1EC4);
   background-position: 100% 0;
   color: $white;
+}
+
+//********* nav ************//
+.navbar-brand {
+  width: 100%;
+  @media(min-width: 768px ) {
+    width: auto;
+  }
 }
 
 //********* mixins *********//
