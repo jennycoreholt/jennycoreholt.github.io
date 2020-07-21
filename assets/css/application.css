@@ -52,8 +52,17 @@ body {
   background-position: 100% 0;
   color: #fff; }
 
+nav {
+  border-bottom: 1px solid #fff; }
+  @media (min-width: 992px) {
+    nav {
+      border: 0; } }
+
 .navbar-brand {
+  color: #fff;
   width: 100%; }
+  .navbar-brand:focus, .navbar-brand:hover {
+    color: #fff; }
   @media (min-width: 768px) {
     .navbar-brand {
       width: auto; } }
@@ -163,8 +172,17 @@ body {
   background-position: 100% 0;
   color: #fff; }
 
+nav {
+  border-bottom: 1px solid #fff; }
+  @media (min-width: 992px) {
+    nav {
+      border: 0; } }
+
 .navbar-brand {
+  color: #fff;
   width: 100%; }
+  .navbar-brand:focus, .navbar-brand:hover {
+    color: #fff; }
   @media (min-width: 768px) {
     .navbar-brand {
       width: auto; } }
@@ -233,7 +251,7 @@ h2 {
     .social-media {
       left: 1.5rem;
       position: absolute;
-      top: 8rem; }
+      top: 6.5rem; }
       .social-media li {
         padding-bottom: 2rem; } }
   .social-media li > a:hover {
