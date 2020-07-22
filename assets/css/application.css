@@ -36,11 +36,12 @@ body {
   transition: background-position .4s ease-out; }
   .btn.btn-primary span {
     color: #00eba5;
+    font-weight: 800;
     transition: color .3s ease-in-out; }
 
 .btn.btn.btn-primary:hover,
 .btn.btn.btn-primary:focus {
-  background-position: -99.5% 0;
+  background-position: -100% -0;
   box-shadow: none; }
   .btn.btn.btn-primary:hover span,
   .btn.btn.btn-primary:focus span {
@@ -155,11 +156,12 @@ body {
   transition: background-position .4s ease-out; }
   .btn.btn-primary span {
     color: #00eba5;
+    font-weight: 800;
     transition: color .3s ease-in-out; }
 
 .btn.btn.btn-primary:hover,
 .btn.btn.btn-primary:focus {
-  background-position: -99.5% 0;
+  background-position: -100% -0;
   box-shadow: none; }
   .btn.btn.btn-primary:hover span,
   .btn.btn.btn-primary:focus span {

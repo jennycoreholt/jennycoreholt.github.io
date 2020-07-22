@@ -53,17 +53,17 @@ body {
   transition: background-position .4s ease-out;
   span {
     color: darken($light-green, 50%);
+    font-weight: 800;
     transition: color .3s ease-in-out;
   }
 }
 
 .btn.btn.btn-primary:hover, 
 .btn.btn.btn-primary:focus {
-  background-position: -99.5% 0;
+  background-position: -100% -0;
   box-shadow: none;
   span {
     color: $black;
-    // font-weight: 800;
   }
 }
 
