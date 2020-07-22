@@ -1,0 +1,79 @@
+@import "variables";
+
+//******* font sizes *******//
+h1 {
+  font-weight: 600;
+  @include fluid-type(50px, 65px);
+	@include fluid-line-height(65px, 80px);
+}
+
+h2 {
+  @include fluid-type(26px, 34px);
+	@include fluid-line-height(40px, 53px);
+}
+ //******** font styles ********//
+ .thin-text {
+   font-family: 'Roboto-Thin', sans-serif;
+ }
+
+.light-text {
+  font-family: 'Roboto-Light', sans-serif;
+}
+
+//*******  text highlight *******//
+.highlight {
+ 
+  background-image: linear-gradient(to right, rgba(darken($light-green, 50%), 0) 50%, rgba(darken($light-green, 50%), 1) 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  padding: 0 .2rem;
+  transition: background-position 1s ease-out;
+  span {
+    color: $white;
+    transition: color .7s ease-in;
+  }
+}
+
+.show-highlight { 
+  background-position: -99.99% 0;
+  span {
+    color: $black;
+  }
+}
+
+//******** lists *********//
+.social-media {
+  cursor: pointer;
+  left: 0;
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  @media (min-width: 992px) {
+    position: absolute;
+    top: 8.5rem;
+
+    li {
+      margin-left: 1.5rem;
+      padding-bottom: 2rem;
+    } 
+  }
+  li {
+
+    > a  {
+      
+      &:hover {
+        text-decoration: none;
+      }
+
+      span {
+        vertical-align: middle;
+      }
+
+      img {
+        height: 1.5rem;
+        padding-right: .3rem;
+        width: auto;
+      }
+    }
+  }
+}
