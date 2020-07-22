@@ -44,8 +44,7 @@ body {
   box-shadow: none; }
   .btn.btn.btn-primary:hover span,
   .btn.btn.btn-primary:focus span {
-    color: #000000;
-    font-weight: 800; }
+    color: #000000; }
 
 .cta-btn:not(:disabled):not(.disabled).active, .cta-btn:not(:disabled):not(.disabled):active {
   background-image: linear-gradient(to right, #8847a4, #6253e1, #852D91, #9650b4, #CA1EC4);
@@ -164,8 +163,7 @@ body {
   box-shadow: none; }
   .btn.btn.btn-primary:hover span,
   .btn.btn.btn-primary:focus span {
-    color: #000000;
-    font-weight: 800; }
+    color: #000000; }
 
 .cta-btn:not(:disabled):not(.disabled).active, .cta-btn:not(:disabled):not(.disabled):active {
   background-image: linear-gradient(to right, #8847a4, #6253e1, #852D91, #9650b4, #CA1EC4);
@@ -249,10 +247,10 @@ h2 {
   text-align: left; }
   @media (min-width: 992px) {
     .social-media {
-      left: 1.5rem;
       position: absolute;
       top: 6.5rem; }
       .social-media li {
+        margin-left: 1.5rem;
         padding-bottom: 2rem; } }
   .social-media li > a:hover {
     text-decoration: none; }

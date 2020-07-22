@@ -44,8 +44,7 @@ body {
   box-shadow: none; }
   .btn.btn.btn-primary:hover span,
   .btn.btn.btn-primary:focus span {
-    color: #000000;
-    font-weight: 800; }
+    color: #000000; }
 
 .cta-btn:not(:disabled):not(.disabled).active, .cta-btn:not(:disabled):not(.disabled):active {
   background-image: linear-gradient(to right, #8847a4, #6253e1, #852D91, #9650b4, #CA1EC4);
