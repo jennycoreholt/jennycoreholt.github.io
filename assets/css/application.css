@@ -1,12 +1,12 @@
 html {
-  font-size: 16px; }
+  font-size: 16px;
+  height: auto; }
 
-html,
 body {
   background: linear-gradient(117deg, rgba(0, 158, 111, 0.4), black 70.71%), linear-gradient(336deg, #006b4b, black 70.71%), linear-gradient(127deg, rgba(0, 158, 111, 0.2), black 70.71%);
   color: #fff;
-  height: auto;
-  margin: 0; }
+  margin: 0;
+  height: auto; }
 
 hr {
   margin: 0; }
@@ -148,14 +148,14 @@ main {
       justify-content: flex-start; } }
 
 html {
-  font-size: 16px; }
+  font-size: 16px;
+  height: auto; }
 
-html,
 body {
   background: linear-gradient(117deg, rgba(0, 158, 111, 0.4), black 70.71%), linear-gradient(336deg, #006b4b, black 70.71%), linear-gradient(127deg, rgba(0, 158, 111, 0.2), black 70.71%);
   color: #fff;
-  height: auto;
-  margin: 0; }
+  margin: 0;
+  height: auto; }
 
 hr {
   margin: 0; }
