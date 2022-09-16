@@ -3,8 +3,9 @@ html {
 
 html,
 body {
-  background: #000000;
+  background: linear-gradient(117deg, rgba(0, 158, 111, 0.4), black 70.71%), linear-gradient(336deg, #006b4b, black 70.71%), linear-gradient(127deg, rgba(0, 158, 111, 0.2), black 70.71%);
   color: #fff;
+  height: 100%;
   margin: 0; }
 
 hr {
@@ -151,8 +152,9 @@ html {
 
 html,
 body {
-  background: #000000;
+  background: linear-gradient(117deg, rgba(0, 158, 111, 0.4), black 70.71%), linear-gradient(336deg, #006b4b, black 70.71%), linear-gradient(127deg, rgba(0, 158, 111, 0.2), black 70.71%);
   color: #fff;
+  height: 100%;
   margin: 0; }
 
 hr {

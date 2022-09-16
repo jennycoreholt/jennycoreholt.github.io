@@ -13,8 +13,12 @@ html {
 
 html,
 body {
-  background: $black;
+  background: linear-gradient(117deg, rgba(0, 158, 111, .4), rgba(0,0,0,1) 70.71%),
+              linear-gradient(336deg,rgba(0, 107, 75, 1), rgba(0,0,0,1) 70.71%),
+              linear-gradient(127deg, rgba(0, 158, 111, .2), rgba(0,0,0,1) 70.71%);
+  // background-image: url('/assets/images/green_circle_bkgrd.svg');
   color: $white;
+  height: 100%;
   margin: 0;
 }
 
