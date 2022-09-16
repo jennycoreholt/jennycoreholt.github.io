@@ -9,8 +9,29 @@ nav {
   }
 }
 
-// .container {
-//   display: grid;
-//   grid-template-columns: repeat(2, 20%, 90%);
-//   grid-auto-rows: min-content;
-// }
+main {
+  display: grid;
+  margin: 1rem 0 1.5rem;
+  @media only screen and (min-width: 992px) {
+    grid-template-columns: 80px 2fr;
+  }
+}
+
+//****** container styles ******//
+.intro-area {
+  padding: 2.5rem 1.5rem;
+  @media only screen and (min-width: 992px) {
+    padding: 0 1.5rem 0 4.5rem;
+  }
+}
+
+.skills-area-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.5rem 0;
+  @media only screen and (min-width: 768px) {
+    justify-content: flex-start;
+  }
+}

@@ -11,6 +11,12 @@ h2 {
   @include fluid-type(26px, 34px);
 	@include fluid-line-height(40px, 53px);
 }
+
+.intro-area {
+  h1 {
+    margin-top: 0;
+  }
+}
  //******** font styles ********//
  .thin-text {
    font-family: 'Roboto-Thin', sans-serif;
@@ -22,7 +28,7 @@ h2 {
 
 //*******  text highlight *******//
 .highlight {
- 
+
   background-image: linear-gradient(to right, rgba(darken($light-green, 50%), 0) 50%, rgba(darken($light-green, 50%), 1) 50%);
   background-position: -0% 0;
   background-size: 200% auto;
@@ -34,46 +40,9 @@ h2 {
   }
 }
 
-.show-highlight { 
+.show-highlight {
   background-position: -99.99% 0;
   span {
     color: $black;
-  }
-}
-
-//******** lists *********//
-.social-media {
-  cursor: pointer;
-  left: 0;
-  list-style: none;
-  padding-left: 0;
-  text-align: left;
-  @media (min-width: 992px) {
-    position: absolute;
-    top: 8.5rem;
-
-    li {
-      margin-left: 1.5rem;
-      padding-bottom: 2rem;
-    } 
-  }
-  li {
-
-    > a  {
-      
-      &:hover {
-        text-decoration: none;
-      }
-
-      span {
-        vertical-align: middle;
-      }
-
-      img {
-        height: 1.5rem;
-        padding-right: .3rem;
-        width: auto;
-      }
-    }
   }
 }

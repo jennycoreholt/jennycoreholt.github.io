@@ -2,12 +2,12 @@
 nav {
   padding: 1.5rem;
   .navbar-brand {
+    margin-bottom: .5rem;
     text-align: center;
     text-decoration: none;
     img {
-      display: flex;
-      margin: auto;
       @media only screen and (min-width: 992px) {
+        display: flex;
         margin-right: .5rem;
       }
     }
@@ -16,24 +16,27 @@ nav {
       display: flex;
       width: 100%;
     }
+    p {
+      margin: .3rem;
+    }
   }
   .nav-list {
     list-style-type: none;
+    margin: 0;
     padding-left: 0;
     text-align: center;
     @media only screen and (min-width: 992px) {
-      margin: 0;
       text-align: right;
     }
     .nav-item {
+      font-weight: bold;
       padding: .5rem 0;
       @media only screen and (min-width: 992px) {
         display: inline-block;
       }
       .nav-link {
-        color: darken($light-green, 50%)
+        color: darken($light-green, 50%);
         display: block;
-        margin-bottom: .5rem;
         padding: 0.5rem;
         text-decoration: none;
         @media only screen and (min-width: 992px) {
@@ -46,7 +49,7 @@ nav {
       }
       .btn.btn-primary {
         display: block;
-        @media only screen and (min-width: 992px) {
+        @media only screen and (min-width: 768px) {
           display: inline-block;
         }
       }
