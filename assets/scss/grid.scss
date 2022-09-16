@@ -1,9 +1,12 @@
 /**** css grid *****/
 nav {
   display: grid;
-  grid-template-columns: 1;
-  grid-auto-rows: 80px;
-  background-color: red;
+  grid-column: 1;
+  grid-row: 2;
+  @media only screen and (min-width: 992px) {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 60px;
+  }
 }
 
 // .container {

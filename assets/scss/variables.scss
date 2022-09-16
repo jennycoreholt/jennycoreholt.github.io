@@ -7,10 +7,15 @@ $white: #fff;
 $link-color: #CA1EC4;
 
 //********* global styling *********//
+html {
+  font-size: 16px;
+}
+
 html,
 body {
   background: $black;
   color: $white;
+  margin: 0;
 }
 
 // buttons //
@@ -50,6 +55,8 @@ body {
   background-size: 200% auto;
   border: 2px solid darken($light-green, 50%);
   border-radius: 0;
+  padding: .8rem 1rem;
+  text-decoration: none;
   transition: background-position .4s ease-out;
   span {
     color: darken($light-green, 50%);
@@ -58,7 +65,7 @@ body {
   }
 }
 
-.btn.btn.btn-primary:hover, 
+.btn.btn.btn-primary:hover,
 .btn.btn.btn-primary:focus {
   background-position: -100% -0;
   box-shadow: none;
@@ -71,25 +78,6 @@ body {
   background-image: linear-gradient(to right, rgba(darken($purple, 20%), 1), #6253e1, #852D91, rgba(darken($purple, 15%), 1), #CA1EC4);
   background-position: 100% 0;
   color: $white;
-}
-
-//********* nav ************//
-nav {
-  border-bottom: 1px solid $white;
-  @media(min-width: 992px) {
-    border: 0;
-  }
-}
-.navbar-brand {
-  color: $white;
-  width: 100%;
-  &:focus, 
-  &:hover {
-    color: $white;
-  }
-  @media(min-width: 768px ) {
-    width: auto;
-  }
 }
 
 //********* mixins *********//
