@@ -1,0 +1,13 @@
+/**** css grid *****/
+nav {
+  display: grid;
+  grid-template-columns: 1;
+  grid-auto-rows: 80px;
+  background-color: red;
+}
+
+// .container {
+//   display: grid;
+//   grid-template-columns: repeat(2, 20%, 90%);
+//   grid-auto-rows: min-content;
+// }
