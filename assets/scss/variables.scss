@@ -17,7 +17,8 @@ body {
   background: linear-gradient(117deg, rgba(0, 158, 111, .2), rgba(0,0,0,1) 70.71%),
               linear-gradient(336deg,rgba(0, 107, 75, 1), rgba(0,0,0,1) 70.71%),
               linear-gradient(127deg, rgba(0, 158, 111, .2), rgba(0,0,0,1) 70.71%);
-  background-repeat: repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: $white;
   height: 100%;
   margin: 0;
@@ -26,7 +27,7 @@ body {
 
 hr {
   margin: 0;
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 768px) {
     display: none;
   }
 }
