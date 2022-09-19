@@ -2,6 +2,9 @@
 .animation-item {
   margin-bottom: 1rem;
   width: 115px;
+  p {
+    text-align: center;
+  }
 }
 
 .container-rotation {
@@ -18,6 +21,7 @@
 
 .animation-graph-container {
   height: 5rem;
+  margin: auto;
   position: relative;
   text-align: center;
   width: 5rem;
