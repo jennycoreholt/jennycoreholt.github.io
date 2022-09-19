@@ -12,6 +12,7 @@ nav {
 main {
   display: grid;
   margin: 1rem 0 1.5rem;
+  padding: 0;
   @media only screen and (min-width: 768px) {
     grid-template-columns: 80px 2fr;
   }
@@ -32,9 +33,15 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   padding: 1.5rem 0;
   @media only screen and (min-width: 768px) {
     justify-content: flex-start;
   }
+}
+
+.container-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
