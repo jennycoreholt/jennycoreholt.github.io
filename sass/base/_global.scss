@@ -26,10 +26,9 @@ body {
 }
 
 hr {
-  margin: 0;
-  @media only screen and (min-width: 768px) {
-    display: none;
-  }
+  border-color: $dark-grey;
+  border-width: 2px;
+  margin: 0 0 1.8rem;
 }
 
 a {
@@ -40,6 +39,11 @@ a {
   display: none;
 }
 
+@media screen and (max-width: 767px) {
+  .d-sm-none {
+    display: none;
+  }
+}
 @media screen and (min-width: 576px) {
   .d-sm-block {
     display: block;
@@ -50,10 +54,19 @@ a {
   .d-md-block {
     display: block;
   }
+  .d-md-none {
+    display: none;
+  }
+  .me-md {
+    margin-right: 5rem;
+  }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1199px) {
   .d-md-flex {
+    display: flex;
+  }
+  .d-md-flex-with-wrap {
     display: flex;
     flex-wrap: wrap;
   }

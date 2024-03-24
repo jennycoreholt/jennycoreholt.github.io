@@ -52,6 +52,17 @@ h1.hero-font {
   font-family: "Roboto-Light", sans-serif;
 }
 
+.work-experience {
+  .job-description {
+    h4 {
+      margin-bottom: 0;
+    }
+    p {
+      margin-top: 0;
+    }
+  }
+}
+
 /* Text highlight
 ================================================== */
 

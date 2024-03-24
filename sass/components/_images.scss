@@ -41,6 +41,17 @@ $width: 180px;
   overflow: hidden;
 }
 
+.profile-img {
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  max-width: 120px;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    max-width: 200px;
+  }
+}
+
 /* Icon text box
 ================================================== */
 
