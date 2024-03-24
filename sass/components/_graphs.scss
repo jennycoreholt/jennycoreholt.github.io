@@ -4,9 +4,9 @@
 ================================================== */
 
 .animation-item {
-  margin-bottom: 1rem;
-  width: 115px;
+  width: 120px;
   p {
+    margin-top: 0.3rem;
     text-align: center;
   }
 }
@@ -24,11 +24,11 @@
 }
 
 .animation-graph-container {
-  height: 5rem;
+  height: 4.5rem;
   margin: auto;
   position: relative;
   text-align: center;
-  width: 5rem;
+  width: 4.55rem;
 
   //** circle graph **/
   .circle-bg {
