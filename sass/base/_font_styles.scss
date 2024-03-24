@@ -1,0 +1,71 @@
+@use "../abstracts/" as *;
+
+/* Font sizes
+================================================== */
+
+:root {
+  font-size: $base-size-font;
+
+  h1,
+  .h1 {
+    font-size: $heading-1;
+  }
+
+  h2,
+  .h2 {
+    font-size: $heading-2;
+  }
+
+  h3,
+  .h3 {
+    font-size: $heading-3;
+  }
+}
+
+.intro-area {
+  h1 {
+    margin-top: 0;
+  }
+}
+
+/* Font styles
+================================================== */
+
+h1.hero-font {
+  font-size: $hero-font;
+  margin-bottom: 1.5rem;
+}
+
+.thin-text {
+  font-family: "Roboto-Thin", sans-serif;
+}
+
+.light-text {
+  font-family: "Roboto-Light", sans-serif;
+}
+
+/* Text highlight
+================================================== */
+
+.highlight {
+  background-image: linear-gradient(
+    to right,
+    rgba(darken($light-green, 50%), 0) 50%,
+    rgba(darken($light-green, 50%), 1) 50%
+  );
+  background-position: -0% 0;
+  background-size: 200% auto;
+  padding: 0 0.2rem;
+  transition: background-position 1s ease-out;
+  span {
+    color: $white;
+    transition: color 0.7s ease-in;
+  }
+}
+
+.show-highlight {
+  background-position: -99.99% 0;
+  span {
+    color: $black;
+  }
+}

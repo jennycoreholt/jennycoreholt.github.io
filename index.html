@@ -1,14 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/sass/style.scss" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/sass/style.scss" />
+  <title>Jenny Core-Holt Frontend Design & Development</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
+  <!--- favicon --->
+  <link rel="icon" type="image/svg" href="favicon.svg">
+  <meta name="msapplication-TileColor" content="#00000">
+  <meta name="theme-color" content="#00000">
+  <!-- **END** favicon-->
+
+</head>
+
+<body>
+  <div class="container-wrapper">
+
+    <header>
+      <!-- navigation -->
+      <nav class="navbar">
+        <a href="/index.html" class="navbar-brand">
+          <img src="images/icons/abstract brew.svg" alt="abstract logo">
+          <span class="d-none d-sm-block">
+            <p>Jenny Core-Holt</p>
+          </span>
+        </a>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="mailto:jenny@jennycore.com" class="btn btn-primary">
+              <span>get in touch</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- **END** navigation -->
+    </header>
+
+    <main>
+
+      <!-- social media -->
+      <ul class="social-media">
+        <li>
+          <span class="text-center d-sm-none">
+            <p>Jenny Core-Holt</p>
+          </span>
+        </li>
+        <li>
+          <a href="https://dribbble.com/jennycoreholt" target="_blank">
+            <img src="/images/Brands/dribbble.svg">
+          </a>
+        </li>
+        <li>
+          <a href="https://codepen.io/jennych/" target="_blank">
+            <img src="/images/Brands/codepen.svg">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/jennycoreholt" target="_blank">
+            <img src="/images/Brands/github.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jennycoreholt/" target="_blank">
+            <img src="/images/Brands/linkedin.svg">
+          </a>
+        </li>
+      </ul>
+      <!-- **END** social media -->
+
+      <hr>
+
+      <!-- intro area -->
+      <section class="intro-area">
+
+        <h1 class="hero-font">
+          UI Design + Code
+        </h1>
+
+        <h2>
+          Hello I'm Jenny, a <span class="highlight"><span>user focused Front End Designer & Developer</span></span>
+          based in Berlin, Germany. I <span class="highlight"><span>design</span></span> and <span
+            class="highlight"><span>develop</span></span> digital solutions.
+        </h2>
+
+        <h3>
+          I enjoy working in an AGILE team of developers and designers, focusing on transforming UI concepts into living
+          applications. I love coding and problem solving, working mostly with html, css, css preprocessors, javascript
+          and React.
+        </h3>
+        <h3>
+          A bit more about me: I am an avid tea drinker, snowboader, stand up paddle boader, zombie film enthusiast and
+          love hanging out with my dog, Toby.
+        </h3>
+        <!-- skills area -->
+        <div class="skills-area-container">
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="65, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">65%</text>
+              </svg>
+
+            </div>
+
+            <p>Adobe Suite</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="85, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">85%</text>
+              </svg>
+
+            </div>
+
+            <p>Sketch</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="85, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">85%</text>
+              </svg>
+
+            </div>
+
+            <p>Figma</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="85, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">85%</text>
+              </svg>
+
+            </div>
+
+            <p>VS Code</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="90, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">90%</text>
+              </svg>
+
+            </div>
+
+            <p>UI Design</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="90, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">90%</text>
+              </svg>
+
+            </div>
+
+            <p>Bootstrap</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="95, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">95%</text>
+              </svg>
+
+            </div>
+
+            <p>HTML5</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="90, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">90%</text>
+              </svg>
+
+            </div>
+
+            <p>CSS</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="90, 100" d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">90%</text>
+              </svg>
+
+            </div>
+
+            <p>SASS</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="80, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">80%</text>
+              </svg>
+
+            </div>
+
+            <p>JavaScript</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="70, 100" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">70%</text>
+              </svg>
+
+            </div>
+
+            <p>jQuery</p>
+
+          </div>
+          <!-- **END** animation item -->
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="70, 100" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">70%</text>
+              </svg>
+
+            </div>
+
+            <p>React</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="75, 100" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">75%</text>
+              </svg>
+
+            </div>
+
+            <p>Github</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="90, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">90%</text>
+              </svg>
+
+            </div>
+
+            <p>Problem solving</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="90, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="9.5" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">90%</text>
+              </svg>
+
+            </div>
+
+            <p>Working in a team</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+          <!-- animation item -->
+          <div class="animation-item">
+            <div class="animation-graph-container">
+
+              <svg viewBox="-2 -2 40 40">
+                <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="graph-circle" stroke-dasharray="100, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="6" y="21.5" font-family="Roboto-Regular" font-size="10px" class="graph-text">100%</text>
+              </svg>
+
+            </div>
+
+            <p>Tea making skills</p>
+
+          </div>
+          <!-- **END** animation item -->
+
+        </div><!-- **END d-flex container -->
+        <!-- **END** skills area -->
+
+      </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <p>
+        © Jenny Core-Holt 2024. All rights reserved.
+      </p>
+    </footer>
+    <!-- footer -->
+
+  </div>
+
+  <!-- javascript -->
+  <script type="text/javascript">
+
+
+    // add highlight to text on page load //
+    $(document).ready(function () {
+
+      window.setTimeout(function () {
+        $('.highlight').addClass('show-highlight');
+      }, 900);
+
+      window.setTimeout(function () {
+        $('.graph-circle ').addClass('circle-animation');
+      }, 2000);
+
+    });
+    // **END** add highlight to text on page load //
+
+  </script>
+
+</body>
+
 </html>

@@ -1,0 +1,56 @@
+/* Lists
+================================================== */
+
+.social-media {
+  cursor: pointer;
+  left: 0;
+  list-style: none;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  padding: 0 1.5rem;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    margin-top: 1.4rem;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+    &:first-child {
+      font-size: 1.6rem;
+      display: block;
+      margin-right: 0;
+      text-align: center;
+      @media screen and (min-width: 576px) {
+        display: none;
+      }
+      p {
+        margin-top: 0;
+      }
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    @media only screen and (min-width: 768px) {
+      display: block;
+      margin-right: 0;
+      padding-bottom: 1.5rem;
+    }
+    > a {
+      display: block;
+      &:hover {
+        text-decoration: none;
+      }
+
+      span {
+        vertical-align: middle;
+      }
+
+      img {
+        height: 1.7rem;
+        padding-right: 0.3rem;
+        width: auto;
+      }
+    }
+  }
+}

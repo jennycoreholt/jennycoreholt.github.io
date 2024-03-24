@@ -1,13 +1,53 @@
-@use "../abstracts" as *;
+@use "../abstracts/" as *;
 
-body {
-  font-family: var(--ff-primary);
-  background-color: var(--background-primary);
-  color: var(--text-primary);
+/* Global styling
+================================================== */
+
+html {
+  font-size: 16px;
+  height: 100%;
+  min-height: 100%;
 }
 
-h1,
-h2,
-h3 {
-  line-height: 1.1;
+body {
+  background: linear-gradient(
+      117deg,
+      rgba(0, 158, 111, 0.2),
+      rgba(0, 0, 0, 0.65) 70.71%
+    ),
+    linear-gradient(336deg, rgba(0, 107, 75, 0.65), rgba(0, 0, 0, 1) 70.71%),
+    linear-gradient(127deg, rgba(0, 158, 111, 0.2), rgba(0, 0, 0, 1) 70.71%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: $white;
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+}
+
+hr {
+  margin: 0;
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+a {
+  color: $white;
+}
+
+.d-none {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .d-sm-block {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .d-md-block {
+    display: block;
+  }
 }
