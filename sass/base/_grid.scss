@@ -25,6 +25,9 @@ main {
   @media only screen and (min-width: 992px) {
     grid-template-columns: 30% 70%;
   }
+  @media only screen and (min-width: 1200px) {
+    grid-template-columns: 25% 75%;
+  }
 }
 
 /* Container styles
