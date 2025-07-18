@@ -32,7 +32,8 @@ hr {
 }
 
 a {
-  color: $white;
+  color: $link-color;
+  text-decoration: none;
 }
 
 .d-none {
