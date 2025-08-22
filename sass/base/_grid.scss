@@ -53,3 +53,8 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.project-area {
+  padding: 0 1.5rem 0 1.5rem;
+  min-height: calc(100vh - 235px);
+}

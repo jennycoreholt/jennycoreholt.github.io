@@ -34,8 +34,23 @@ hr {
 a {
   color: $link-color;
   text-decoration: none;
+  img {
+    transition: all .2s ease-in-out;
+  }
+  &:hover {
+    img {
+      transform: translateX(10px);
+    }
+  }
 }
 
+.social-media {
+  a:hover {
+    img {
+      transform: translatey(-5px);
+    }
+  }
+}
 .d-none {
   display: none;
 }
