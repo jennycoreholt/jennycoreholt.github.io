@@ -4,11 +4,44 @@
 ================================================== */
 
 .card {
-  border: 2px solid $dark-grey;
-  border-radius: 6px;
+  border: 1px solid rgba(255,255,255, .4);
+  border-radius: 8px;
   margin-bottom: 1.5rem;
-  padding: 1.5rem;
   @media screen and (min-width: 768px) {
-    margin-right: 1.5rem;
+    margin-right: .5rem;
   }
+  h2 {
+    font-size: 25px;
+    margin-bottom: .5rem;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+.project-item {
+   display: grid;
+    @media only screen and (min-width: 768px) {
+      grid-template-columns: 50% 50%;
+    }
+    @media only screen and (min-width: 1024px) {
+      grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+  .project-item-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    border-radius: 6px 6px 0 0;
+    height: 15rem;
+    width: 100%;
+    @media only screen and (min-width: 768px) {
+      height: 15rem;
+    }
+    @media only screen and (min-width: 992px) {
+      height: 10rem;
+    }
+  }
+   .project-item-description {
+      padding: 1.5rem;
+    }
 }

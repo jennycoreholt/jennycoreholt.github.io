@@ -6,6 +6,7 @@
 nav {
   padding: 1.5rem;
   .navbar-brand {
+    color: $white;
     display: block;
     text-decoration: none;
     width: 100%;
@@ -31,10 +32,8 @@ nav {
     margin: 0;
     padding-left: 0;
     text-align: right;
-    @media only screen and (min-width: 768px) {
-      .nav-item.active {
-        border-bottom: 2px solid darken($light-green, 50%);
-      }
+    .nav-item.active {
+      border-bottom: 2px solid darken($light-green, 50%);
     }
     .nav-item {
       font-weight: bold;
@@ -47,10 +46,7 @@ nav {
         display: block;
         padding: 0.5rem;
         text-decoration: none;
-        @media only screen and (min-width: 768px) {
-          display: inline-block;
-          margin: 0 0.6rem;
-        }
+        margin: 0 0.6rem;
         &:hover {
           color: darken($light-green, 55%);
         }

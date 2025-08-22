@@ -32,16 +32,40 @@ hr {
 }
 
 a {
-  color: $white;
+  color: $link-color;
+  text-decoration: none;
+  img {
+    transition: all .2s ease-in-out;
+  }
+  &:hover {
+    img {
+      transform: translateX(10px);
+    }
+  }
 }
 
+.social-media {
+  a:hover {
+    img {
+      transform: translatey(-5px);
+    }
+  }
+}
 .d-none {
   display: none;
 }
 
+.d-block {
+  display: block;
+}
+
+.mb-md {
+  margin-bottom: 1.5rem;
+}
+
 @media screen and (max-width: 767px) {
   .d-sm-none {
-    display: none;
+    display: none!important;
   }
 }
 @media screen and (min-width: 576px) {
