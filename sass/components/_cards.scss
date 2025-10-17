@@ -6,6 +6,8 @@
 .card {
   border: 1px solid rgba(255,255,255, .4);
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 1.5rem;
   @media screen and (min-width: 768px) {
     margin-right: 1rem;
@@ -41,7 +43,14 @@
       height: 10rem;
     }
   }
-   .project-item-description {
+  .project-item-description {
       padding: 1.5rem;
-    }
+  }
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: end;
+    padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+  }
 }
