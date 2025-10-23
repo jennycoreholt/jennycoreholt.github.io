@@ -63,6 +63,10 @@ a {
   margin-bottom: 1.5rem;
 }
 
+.lg-mb {
+  margin-bottom: 3rem;
+}
+
 @media screen and (max-width: 767px) {
   .d-sm-none {
     display: none!important;
@@ -83,6 +87,12 @@ a {
   }
   .me-md {
     margin-right: 5rem;
+  }
+  .md-inline-flex {
+    align-items: baseline;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
   }
 }
 
