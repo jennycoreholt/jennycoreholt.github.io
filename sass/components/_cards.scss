@@ -30,6 +30,7 @@ background: linear-gradient(346deg,rgba(51, 51, 0, 1) 0%, rgba(38, 33, 1, 1) 11%
   display: flex;
   flex-direction: column;
   margin: 0 .8rem 2rem;
+  padding: 1.5rem;
   h2 {
     font-size: 25px;
     margin-bottom: .5rem;
@@ -59,17 +60,14 @@ background: linear-gradient(346deg,rgba(51, 51, 0, 1) 0%, rgba(38, 33, 1, 1) 11%
       height: 15rem;
     }
     @media only screen and (min-width: 992px) {
-      height: 10rem;
+      height: 12rem;
     }
-  }
-  .project-item-description {
-      padding: 1.5rem;
   }
   .card-footer {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     justify-content: end;
-    padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
