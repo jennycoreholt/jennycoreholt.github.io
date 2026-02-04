@@ -2,7 +2,12 @@
 
 /* Nav styling
 ================================================== */
-
+nav .nav-list .nav-item.d-none.d-md-block{
+  display: none;
+  @media screen and (min-width: 850px) {
+    display: inline-block;
+  }
+}
 nav {
   padding: 1.5rem;
   a.navbar-brand:hover {
@@ -11,7 +16,7 @@ nav {
     }
   }
   .navbar-brand {
-    color: $white;
+    color: $dark-grey;
     display: block;
     text-decoration: none;
     width: 100%;
@@ -20,6 +25,7 @@ nav {
       display: flex;
     }
     img {
+      filter: invert(1);
       width: 1.7rem;
       @media screen and (min-width: 576px) {
         display: flex;
@@ -38,22 +44,30 @@ nav {
     padding-left: 0;
     text-align: right;
     .nav-item.active {
-      border-bottom: 2px solid darken($light-green, 50%);
+      border-bottom: 2px solid $dark-grey;
+      &:hover {
+        border-bottom: 2px solid $link-color;
+        * {
+          color: $link-color;
+        }
+      }
     }
     .nav-item {
       font-weight: bold;
       display: inline-block;
       &:nth-child(2) {
-        margin-right: 1.3rem;
+        @media screen and (min-width: 849px) {
+           margin-right: 1rem;
+        }
       }
       .nav-link {
-        color: darken($light-green, 50%);
+        color: $dark-grey;
         display: block;
         padding: 0.5rem;
         text-decoration: none;
         margin: 0 0.6rem;
         &:hover {
-          color: darken($light-green, 55%);
+          color: $link-color;
         }
       }
       .btn.btn-primary {

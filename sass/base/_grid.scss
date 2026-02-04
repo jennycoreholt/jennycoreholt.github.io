@@ -19,14 +19,37 @@ main {
 
 .intro-area {
   display: grid;
-  @media only screen and (min-width: 768px) {
-    grid-template-columns: 35% 65%;
+  @media only screen and (min-width: 850px) {
+    grid-template-columns: 40% 60%;
   }
   @media only screen and (min-width: 992px) {
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 35% 65%;
   }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1330px) {
     grid-template-columns: 25% 75%;
+  }
+}
+
+.contact-area {
+  @media screen and (min-width: 576px) and (max-width: 849px) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    > div:nth-child(2) {
+      margin-left: 2rem;
+    }
+    .text-center {
+      text-align: left;
+    }
+    .social-media-list-wrapper {
+      justify-content: flex-start;
+    }
+    .btn {
+      width: fit-content;
+    }
+    .profile-img {
+      margin: 0;
+      max-width: 100%;
+    }
   }
 }
 

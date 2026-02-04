@@ -44,19 +44,19 @@
   background-color: transparent;
   background-image: linear-gradient(
     to right,
-    rgba(darken($light-green, 50%), 0) 50%,
-    rgba(darken($light-green, 50%), 1) 50%
+    rgba($link-color, 0) 0 50%,
+    rgba($link-color, 1) 50%
   );
   background-position: -0% 0;
   background-size: 200% auto;
-  border: 2px solid darken($light-green, 50%);
-  border-radius: 0;
+  border: 2px solid $link-color;
+  border-radius: 0;cursor: pointer;
   padding: 0.8rem 1.5rem;
   text-align: center;
   text-decoration: none;
   transition: background-position 0.4s ease-out;
   span {
-    color: darken($light-green, 50%);
+    color: $link-color;
     font-weight: 800;
     transition: color 0.3s ease-in-out;
   }
@@ -67,7 +67,7 @@
   background-position: -100% -0;
   box-shadow: none;
   span {
-    color: $black;
+    color: $white;
   }
 }
 
