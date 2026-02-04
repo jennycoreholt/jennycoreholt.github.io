@@ -1,0 +1,48 @@
+@use "../abstracts/" as *;
+/* Dark mode styles*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111;
+        color: $white;
+    }
+    nav .nav-list .nav-item a.nav-link {
+        color: $white;
+    }
+    ul.check-list li,
+    .project-item-description > ul.project-tag > li > span {
+            background-color: #00e1e1;
+
+    }
+    .highlight {
+        background-image: linear-gradient(
+        to right,
+        rgba(0,225,255, 0) 50%,
+        rgba(0,255,255, 1) 50%
+        );
+        span {
+            color: $white;
+        }
+    }
+    .show-highlight {
+        span {
+            color: $black
+        }
+    }
+    a {
+        color: #ff7e2b;
+    }
+    a.btn.btn-primary {
+        background-image: linear-gradient(
+            to right,
+            rgba(#ff7e2b, 0) 0 50%,
+            rgba(#ff7e2b, 1) 50%
+        );
+        border: 2px solid #ff7e2b;
+        span {
+         color: #ff7e2b;
+        }
+    }
+    a.navbar-brand {
+        filter: invert(1);
+    }
+}

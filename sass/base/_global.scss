@@ -43,7 +43,7 @@ a {
 .social-media {
   a:hover {
     img {
-      transform: translatey(-5px);
+      transform: translatey(-3px);
     }
   }
 }
@@ -83,43 +83,3 @@ a {
     margin-right: 5rem;
   }
 }
-
-
-// @media screen and (max-width: 575px) {
-//   .d-sm-none {
-//     display: none!important;
-//   }
-// }
-// @media screen and (min-width: 576px) {
-//   .d-sm-block {
-//     display: block;
-//   }
-// }
-
-// @media screen and (min-width: 849px) {
-//   .d-md-block {
-//     display: block;
-//   }
-//   .d-md-none {
-//     display: none;
-//   }
-//   .me-md {
-//     margin-right: 5rem;
-//   }
-//   .md-inline-flex {
-//     align-items: baseline;
-//     display: inline-flex;
-//     justify-content: space-between;
-//     width: 100%;
-//   }
-// }
-
-// @media screen and (min-width: 1199px) {
-//   .d-md-flex {
-//     display: flex;
-//   }
-//   .d-md-flex-with-wrap {
-//     display: flex;
-//     flex-wrap: wrap;
-//   }
-// }
