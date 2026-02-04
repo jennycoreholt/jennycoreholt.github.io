@@ -1,6 +1,14 @@
+@use "../abstracts" as *;
 /* Lists
 ================================================== */
-
+.social-media-list-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  @media screen and (min-width: 850px) {
+    justify-content: flex-start;
+  }
+}
 .social-media {
   cursor: pointer;
   left: 0;
@@ -8,14 +16,16 @@
   margin: 1rem 0 1.6rem;
   padding: 0;
   text-align: center;
+  @media screen and (min-width: 576px) {
+    text-align: left;
+  }
   li {
-    display: inline-block;
     padding-right: 0.6rem;
     &:first-child {
       font-size: 1.3rem;
       display: block;
       margin-right: 0;
-      @media screen and (min-width: 576px) {
+      @media screen and (min-width: 850px) {
         display: none;
       }
       p {
@@ -29,7 +39,8 @@
       margin-right: 0;
     }
     > a {
-      display: block;
+      text-decoration: underline;
+      word-break: break-all;
       &:hover {
         text-decoration: none;
       }
@@ -37,10 +48,8 @@
       span {
         vertical-align: middle;
       }
-
       img {
-        height: 1.7rem;
-        padding-right: 0.3rem;
+        height: 12px;
         width: auto;
       }
     }
@@ -70,6 +79,14 @@
 .check-list {
   list-style-type: none;
   padding-left: 0;
+  li {
+    background-color: rgba(0,133,133, .4);
+    border-radius: 3px;
+    color: $black;
+    display: inline-block;
+    margin: 0 2px 8px 0;
+    padding: 5px 10px;
+  }
   img {
     height: .8rem;
     margin-right: .3rem;
@@ -87,10 +104,10 @@
     margin-bottom: .5rem;
     margin-right: .5rem;
     span {
-      background-color: #fff;
+      background-color: rgba(0,133,133, .4);
       border-radius: 4px;
       color: #000;
-      padding: .2rem .5rem;
+      padding: 5px 10px;
     }
   }
 }
