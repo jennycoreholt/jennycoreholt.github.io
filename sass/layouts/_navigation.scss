@@ -10,6 +10,9 @@ nav .nav-list .nav-item.d-none.d-md-block{
 }
 nav {
   padding: 1.5rem;
+  @media only screen and (min-width: 850px) {
+    padding: 1.5rem 2.5rem;
+  }
   a.navbar-brand:hover {
     img {
       transform: translateX(0);
